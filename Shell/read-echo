@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "who u is?"
+read name
+echo "why u gae?"
+read reason
+echo "well u gae coz u" $reason "and ur name be" $name

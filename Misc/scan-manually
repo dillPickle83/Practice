@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Enter starting IP address:"
+read FirstIP
+
+echo "Enter last octet of last IP:"
+read LastoctetIP
+
+echo "Enter the port no:"
+read Port
+
+nmap -sT $FirstIP-$LastoctetIP -p $Port > /dev/null -oG ~/Scripts/playground/MySQLscan
+
+cat ~/Scripts/playground/MySQLscan | grep open > ~/Scripts/playground/MySQLscan2
+cat ~/Scripts/playground/MySQLscan2
