@@ -12,7 +12,7 @@ if [ "$#" != "2" ]; then
 
 else
 	fullfile=$2
-	fbname=$(basename "$$fullfile" | cut -d. -fi)
+	fbname=$(basename "$$fullfile" | cut -d. -f1)
 	master=$fbname-master.txt
 	users=$fbname-user.txt
 	passwords=$fbname-passwords.txt
