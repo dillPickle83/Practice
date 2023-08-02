@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Need to download breach-parse and torrent the password list from http://www.github.com/hmaverickadams brech-parse repo [magnet link in readme]
+
+
 if [ "$#" != "2" ]; then
 	echo "Breach-Parse v2: A Breached Domain Parsing Tool by Heath Adams    [Rip off]"
 	echo " "
