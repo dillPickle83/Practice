@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd ~/Practice
+cd ~/Projects/Practice
 git checkout main
 git pull origin main
