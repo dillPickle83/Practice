@@ -24,6 +24,7 @@ int main(void)
 }
 
 int add(int a, int b)
+// The int specification before the function name will be the return value for the function and the specifications before the parameter will be the type of the values.
 {
     int result = a + b;
     return result;
@@ -31,6 +32,7 @@ int add(int a, int b)
 
 int mult(int x, int y)
 {
+    // The variables that are defined in a function block are local variables and can't be accessed outside of the function.
     int result = 0;
     for (int i=0; i<x; i++)
         result = add(result, y);
