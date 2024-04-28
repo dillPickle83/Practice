@@ -6,4 +6,4 @@ echo "Current branch: $curr_branch"
 cd $PRAC_DIR
 git checkout main
 git pull origin main
-git checkout $(curr_branch)
+git checkout $curr_branch
